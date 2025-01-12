@@ -1,0 +1,12 @@
+name: InventoryOptimizer
+version: 1.0.0
+main: cn.panda.inventoryoptimizer.InventoryOptimizer
+description: 使用遗传算法优化玩家背包排列
+commands:
+  optimize:
+    description: 优化你的背包排列
+    usage: /optimize
+permissions:
+  inventoryoptimizer.optimize:
+    description: 允许玩家使用优化命令
+    default: op

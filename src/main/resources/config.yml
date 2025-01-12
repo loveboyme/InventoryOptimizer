@@ -1,0 +1,10 @@
+# 学习阈值：玩家与物品交互多少次后认为学习完成
+learning_threshold: 200
+
+# 学习检查间隔（秒）：每隔多久检查一次玩家是否可以开始整理背包
+learning_check_interval: 300
+
+genetic_algorithm:
+  population_size: 50  # 种群大小
+  mutation_rate: 0.05  # 变异率
+  elite_size: 5      # 精英保留数量
